@@ -1,43 +1,43 @@
-# Mielialapäiväkirja
+# Mood Diary
 
-Mielialapäiväkirja on Flutterilla toteutettu mobiilisovellus, jonka avulla käyttäjä voi seurata omaa mielialaansa visuaalisessa muodossa. Sovellus mahdollistaa mielialan kirjaamisen päivän mukaan, huomioiden myös mahdolliset lisämuistiinpanot. Tiedot tallennetaan paikallisesti laitteelle, ja ne esitetään viikko- ja kuukausikohtaisina kaavioina.
-
----
-
-## Ominaisuudet
-
-- Lisää mielialamerkintöjä valitsemalla emoji
-- Lisää jokaiselle merkinnälle muistiinpano
-- Näe merkinnät viikko- tai kuukausikohtaisina pylväskaavioina
-- Kalenterinäkymä valitun päivän merkintöihin
-- Poista merkintä kalenterista
-- Teeman vaihto (vaalea / tumma)
-- Tietojen nollaus
-- Tallennus paikallisesti Hive-tietokannan avulla
+Mood Diary is a mobile application developed with Flutter that allows users to track their mood in a visual format. The application enables users to record their mood by day and add optional notes. The data is stored locally on the device and displayed in weekly and monthly charts.
 
 ---
 
-## Käytetyt teknologiat
+## Features
+
+- Add mood entries by selecting an emoji
+- Add notes to each entry
+- View entries in weekly or monthly bar charts
+- Calendar view for viewing entries for a selected day
+- Delete entries from the calendar
+- Switch between light and dark themes
+- Reset all data
+- Local data storage using the Hive database
+
+---
+
+## Technologies Used
 
 - Flutter
-- Hive – paikallinen tietokanta
-- Hive_Flutter – Flutter-integraatio Hiveen
-- ThemeProvider – teemanhallinta
-- FL_Chart – kaaviot
-- table_calendar – kalenteri
+- Hive – local database
+- Hive_Flutter – Flutter integration for Hive
+- ThemeProvider – theme management
+- FL_Chart – charts
+- table_calendar – calendar
 
 ---
 
-## Asennus ja käynnistäminen
+## Installation and Setup
 
-### 1. Vaatimukset
+### 1. Requirements
 
-- Flutter SDK (versio 3.x tai uudempi)
+- Flutter SDK (version 3.x or newer)
 - Dart
-- Android Studio / VSCode tai muu Flutter-ympäristö
-- Android/iOS-emulaattori tai fyysinen laite
+- Android Studio / VS Code or another Flutter development environment
+- Android/iOS emulator or physical device
 
-### 2. Asennusvaiheet
+### 2. Installation
 
 ```bash
 git clone https://github.com/essigranath/mielialapaivakirja
@@ -45,20 +45,20 @@ cd mielialapaivakirja
 flutter pub get
 ```
 
-### 3. Varmista että Flutter toimii
+### 3. Verify That Flutter Is Working
 
 ```bash
 flutter doctor
 ```
 
-### 4. Käynnistä Android-emulaattori
+### 4. Start an Android Emulator
 
-- Avaa Android Studio
-- Avaa More actions > Device Manager
-- Luo uusi virtuaalilaite, jos sellaista ei ole.
-- Valitse emulaattori ja klikkaa Start.
+- Open Android Studio
+- Go to More Actions > Device Manager
+- Create a new virtual device if you do not already have one
+- Select the emulator and click Start
 
-### 5. Käynnistä sovellus
+### 5. Run the Application
 
 ```bash
 flutter run
