@@ -1,6 +1,6 @@
 # Mood Diary
 
-Mood Diary is a mobile application developed with Flutter that allows users to track their mood in a visual format. The application enables users to record their mood by day and add optional notes. The data is stored locally on the device and displayed in weekly and monthly charts.
+Mood Diary is a mobile application developed with Flutter as a school project that allows users to track their mood in a visual format. The application enables users to record their mood by day and add optional notes. The data is stored locally on the device and displayed in weekly and monthly charts. The application was developed and tested using an Android emulator.
 
 ---
 
