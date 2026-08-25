@@ -40,8 +40,8 @@ Mood Diary is a mobile application developed with Flutter that allows users to t
 ### 2. Installation
 
 ```bash
-git clone https://github.com/essigranath/mielialapaivakirja
-cd mielialapaivakirja
+git clone https://github.com/essigranath/mood_diary
+cd mood_diary
 flutter pub get
 ```
 
